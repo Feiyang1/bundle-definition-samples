@@ -1,0 +1,68 @@
+[
+    {
+        "name": "getId",
+        "dependencies": [
+            {
+                "packageName": "@firebase/installations",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getInstallations",
+                    "getId"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "getToken",
+        "dependencies": [
+            {
+                "packageName": "@firebase/installations",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getInstallations",
+                    "getToken"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "deleteInstallations",
+        "dependencies": [
+            {
+                "packageName": "@firebase/installations",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getInstallations",
+                    "deleteInstallations"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "onIdChange",
+        "dependencies": [
+            {
+                "packageName": "@firebase/installations",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getInstallations",
+                    "onIdChange"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "getId+getToken",
+        "dependencies": [
+            {
+                "packageName": "@firebase/installations",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getInstallations",
+                    "getId",
+                    "getToken"
+                ]
+            }
+        ]
+    }
+]

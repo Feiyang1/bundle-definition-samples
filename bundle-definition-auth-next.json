@@ -1,0 +1,248 @@
+[
+    {
+        "name": "EmailAndPassword_initializeAuth",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeAuth",
+                    "indexedDBLocalPersistence",
+                    "signInWithEmailAndPassword"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EmailAndPassword",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getAuth",
+                    "createUserWithEmailAndPassword",
+                    "signInWithEmailAndPassword",
+                    "onAuthStateChanged"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GooglePopup_initializeAuth",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeAuth",
+                    "indexedDBLocalPersistence",
+                    "GoogleAuthProvider",
+                    "signInWithPopup",
+                    "browserPopupRedirectResolver",
+                    "onAuthStateChanged"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GooglePopup",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getAuth",
+                    "GoogleAuthProvider",
+                    "signInWithPopup",
+                    "onAuthStateChanged"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GoogleFBTwitterGitHubPopup",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getAuth",
+                    "GoogleAuthProvider",
+                    "FacebookAuthProvider",
+                    "TwitterAuthProvider",
+                    "GithubAuthProvider",
+                    "signInWithPopup",
+                    "onAuthStateChanged"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GoogleRedirect_initializeAuth",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeAuth",
+                    "indexedDBLocalPersistence",
+                    "GoogleAuthProvider",
+                    "getRedirectResult",
+                    "browserPopupRedirectResolver",
+                    "signInWithRedirect",
+                    "onAuthStateChanged"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GoogleRedirect",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getAuth",
+                    "GoogleAuthProvider",
+                    "getRedirectResult",
+                    "signInWithRedirect",
+                    "onAuthStateChanged"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Phone_initializeAuth",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeAuth",
+                    "indexedDBLocalPersistence",
+                    "RecaptchaVerifier",
+                    "signInWithPhoneNumber"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Phone",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getAuth",
+                    "RecaptchaVerifier",
+                    "signInWithPhoneNumber"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Anonymous_initializeAuth",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeAuth",
+                    "indexedDBLocalPersistence",
+                    "signInAnonymously"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Anonymous",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getAuth",
+                    "signInAnonymously"
+                ]
+            }
+        ]
+    }
+]
