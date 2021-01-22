@@ -5,12 +5,12 @@
       {
         "bundler": "rollup",
         "size": 55967,
-        "gzipSize": 16652
+        "gzipSize": 16653
       },
       {
         "bundler": "webpack",
         "size": 70071,
-        "gzipSize": 20164
+        "gzipSize": 20163
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "bundler": "webpack",
         "size": 78995,
-        "gzipSize": 23013
+        "gzipSize": 23014
       }
     ]
   },
@@ -50,12 +50,12 @@
       {
         "bundler": "rollup",
         "size": 73229,
-        "gzipSize": 21569
+        "gzipSize": 21567
       },
       {
         "bundler": "webpack",
         "size": 78954,
-        "gzipSize": 23023
+        "gzipSize": 23024
       }
     ]
   },
@@ -65,12 +65,12 @@
       {
         "bundler": "rollup",
         "size": 75146,
-        "gzipSize": 21856
+        "gzipSize": 21857
       },
       {
         "bundler": "webpack",
         "size": 79113,
-        "gzipSize": 23052
+        "gzipSize": 23053
       }
     ]
   },
@@ -80,12 +80,12 @@
       {
         "bundler": "rollup",
         "size": 69477,
-        "gzipSize": 20710
+        "gzipSize": 20711
       },
       {
         "bundler": "webpack",
         "size": 79104,
-        "gzipSize": 23041
+        "gzipSize": 23042
       }
     ]
   },
@@ -95,12 +95,12 @@
       {
         "bundler": "rollup",
         "size": 71982,
-        "gzipSize": 21264
+        "gzipSize": 21263
       },
       {
         "bundler": "webpack",
         "size": 79063,
-        "gzipSize": 23049
+        "gzipSize": 23050
       }
     ]
   },
@@ -115,7 +115,7 @@
       {
         "bundler": "webpack",
         "size": 76086,
-        "gzipSize": 21904
+        "gzipSize": 21905
       }
     ]
   },
@@ -140,12 +140,12 @@
       {
         "bundler": "rollup",
         "size": 52243,
-        "gzipSize": 15695
+        "gzipSize": 15694
       },
       {
         "bundler": "webpack",
         "size": 70348,
-        "gzipSize": 20208
+        "gzipSize": 20207
       }
     ]
   },
