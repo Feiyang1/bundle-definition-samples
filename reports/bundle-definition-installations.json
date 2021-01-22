@@ -1,0 +1,77 @@
+[
+  {
+    "name": "getId",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 13065,
+        "gzipSize": 4314
+      },
+      {
+        "bundler": "webpack",
+        "size": 14596,
+        "gzipSize": 4863
+      }
+    ]
+  },
+  {
+    "name": "getToken",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 13068,
+        "gzipSize": 4319
+      },
+      {
+        "bundler": "webpack",
+        "size": 14594,
+        "gzipSize": 4862
+      }
+    ]
+  },
+  {
+    "name": "deleteInstallations",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 13625,
+        "gzipSize": 4435
+      },
+      {
+        "bundler": "webpack",
+        "size": 15085,
+        "gzipSize": 4965
+      }
+    ]
+  },
+  {
+    "name": "onIdChange",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 13328,
+        "gzipSize": 4402
+      },
+      {
+        "bundler": "webpack",
+        "size": 14825,
+        "gzipSize": 4950
+      }
+    ]
+  },
+  {
+    "name": "getId+getToken",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 13080,
+        "gzipSize": 4321
+      },
+      {
+        "bundler": "webpack",
+        "size": 14637,
+        "gzipSize": 4871
+      }
+    ]
+  }
+]

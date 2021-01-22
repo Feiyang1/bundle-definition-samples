@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Read data once",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 169613,
+        "gzipSize": 55040
+      },
+      {
+        "bundler": "webpack",
+        "size": 175882,
+        "gzipSize": 56910
+      }
+    ]
+  },
+  {
+    "name": "realtime updates",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 155840,
+        "gzipSize": 51111
+      },
+      {
+        "bundler": "webpack",
+        "size": 162014,
+        "gzipSize": 53072
+      }
+    ]
+  },
+  {
+    "name": "Query",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 164915,
+        "gzipSize": 53745
+      },
+      {
+        "bundler": "webpack",
+        "size": 171307,
+        "gzipSize": 55732
+      }
+    ]
+  }
+]

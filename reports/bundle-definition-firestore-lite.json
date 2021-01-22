@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Read data once",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 48531,
+        "gzipSize": 15525
+      },
+      {
+        "bundler": "webpack",
+        "size": 49603,
+        "gzipSize": 15891
+      }
+    ]
+  },
+  {
+    "name": "Query",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 50487,
+        "gzipSize": 15878
+      },
+      {
+        "bundler": "webpack",
+        "size": 51548,
+        "gzipSize": 16245
+      }
+    ]
+  }
+]
