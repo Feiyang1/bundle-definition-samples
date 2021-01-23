@@ -10,7 +10,7 @@
       {
         "bundler": "webpack",
         "size": 70071,
-        "gzipSize": 20163
+        "gzipSize": 20161
       }
     ]
   },
@@ -25,7 +25,7 @@
       {
         "bundler": "webpack",
         "size": 79169,
-        "gzipSize": 23046
+        "gzipSize": 23044
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "bundler": "webpack",
         "size": 78995,
-        "gzipSize": 23014
+        "gzipSize": 23012
       }
     ]
   },
@@ -50,12 +50,12 @@
       {
         "bundler": "rollup",
         "size": 73229,
-        "gzipSize": 21567
+        "gzipSize": 21569
       },
       {
         "bundler": "webpack",
         "size": 78954,
-        "gzipSize": 23024
+        "gzipSize": 23022
       }
     ]
   },
@@ -65,12 +65,12 @@
       {
         "bundler": "rollup",
         "size": 75146,
-        "gzipSize": 21857
+        "gzipSize": 21856
       },
       {
         "bundler": "webpack",
         "size": 79113,
-        "gzipSize": 23053
+        "gzipSize": 23051
       }
     ]
   },
@@ -80,12 +80,12 @@
       {
         "bundler": "rollup",
         "size": 69477,
-        "gzipSize": 20711
+        "gzipSize": 20710
       },
       {
         "bundler": "webpack",
         "size": 79104,
-        "gzipSize": 23042
+        "gzipSize": 23040
       }
     ]
   },
@@ -95,12 +95,12 @@
       {
         "bundler": "rollup",
         "size": 71982,
-        "gzipSize": 21263
+        "gzipSize": 21264
       },
       {
         "bundler": "webpack",
         "size": 79063,
-        "gzipSize": 23050
+        "gzipSize": 23047
       }
     ]
   },
@@ -115,7 +115,7 @@
       {
         "bundler": "webpack",
         "size": 76086,
-        "gzipSize": 21905
+        "gzipSize": 21902
       }
     ]
   },
@@ -130,7 +130,7 @@
       {
         "bundler": "webpack",
         "size": 84456,
-        "gzipSize": 24521
+        "gzipSize": 24520
       }
     ]
   },
@@ -145,7 +145,7 @@
       {
         "bundler": "webpack",
         "size": 70348,
-        "gzipSize": 20207
+        "gzipSize": 20205
       }
     ]
   },
@@ -160,7 +160,7 @@
       {
         "bundler": "webpack",
         "size": 79027,
-        "gzipSize": 23015
+        "gzipSize": 23014
       }
     ]
   }
