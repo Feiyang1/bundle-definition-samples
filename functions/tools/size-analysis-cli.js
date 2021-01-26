@@ -884,6 +884,12 @@ var Mode;
     Mode["Npm"] = "npm";
     Mode["Local"] = "local";
 })(Mode || (Mode = {}));
+var SpecialImport;
+(function (SpecialImport) {
+    SpecialImport["Default"] = "default import";
+    SpecialImport["Sizeeffect"] = "side effect import";
+    SpecialImport["Namespace"] = "namespace import";
+})(SpecialImport || (SpecialImport = {}));
 async function run({ input, bundler, mode, output, debug }) {
     const options = {
         bundleDefinitions: loadBundleDefinitions(input),
@@ -1070,20 +1076,65 @@ async function analyzeBundleWithBundler(bundleName, entryFileContent, bundler, m
 }
 function createEntryFileContent(bundleDefinition) {
     const contentArray = [];
+    // cache used symbols. Used to avoid symbol collision when multiple modules export symbols with the same name.
+    const symbolsCache = new Set();
     for (const dep of bundleDefinition.dependencies) {
         for (const imp of dep.imports) {
             if (typeof imp === 'string') {
-                contentArray.push(`export {${imp}} from '${dep.packageName}';`);
+                contentArray.push(...createImportExport(imp, dep.packageName, symbolsCache));
             }
             else {
-                // Import object
+                // submodule imports
                 for (const subImp of imp.imports) {
-                    contentArray.push(`export {${subImp}} from '${dep.packageName}/${imp.path}';`);
+                    contentArray.push(...createImportExport(subImp, `${dep.packageName}/${imp.path}`, symbolsCache));
                 }
             }
         }
     }
     return contentArray.join('\n');
+}
+function createImportExport(symbol, modulePath, symbolsCache) {
+    const contentArray = [];
+    switch (symbol) {
+        case SpecialImport.Default: {
+            const nameToUse = createSymbolName('default_import', symbolsCache);
+            contentArray.push(`import ${nameToUse} from '${modulePath}';`);
+            contentArray.push(`console.log(${nameToUse})`); // prevent import from being tree shaken
+            break;
+        }
+        case SpecialImport.Namespace: {
+            const nameToUse = createSymbolName('namespace', symbolsCache);
+            contentArray.push(`import * as ${nameToUse} from '${modulePath}';`);
+            contentArray.push(`console.log(${nameToUse})`); // prevent import from being tree shaken
+            break;
+        }
+        case SpecialImport.Sizeeffect:
+            contentArray.push(`import '${modulePath}';`);
+            break;
+        default:
+            // named imports
+            const nameToUse = createSymbolName(symbol, symbolsCache);
+            if (nameToUse !== symbol) {
+                contentArray.push(`export {${symbol} as ${nameToUse}} from '${modulePath}';`);
+            }
+            else {
+                contentArray.push(`export {${symbol}} from '${modulePath}';`);
+            }
+    }
+    return contentArray;
+}
+/**
+ * In case a symbol with the same name is already imported from another module, we need to give this symbol another name
+ * using "originalname as anothername" syntax, otherwise it returns the original symbol name.
+ */
+function createSymbolName(symbol, symbolsCache) {
+    let nameToUse = symbol;
+    const max = 100;
+    while (symbolsCache.has(nameToUse)) {
+        nameToUse = `${symbol}_${Math.floor(Math.random() * max)}`;
+    }
+    symbolsCache.add(nameToUse);
+    return nameToUse;
 }
 
 /**
