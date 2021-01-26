@@ -1,0 +1,32 @@
+[
+  {
+    "name": "FCM",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 33428,
+        "gzipSize": 9961
+      },
+      {
+        "bundler": "webpack",
+        "size": 33069,
+        "gzipSize": 10041
+      }
+    ]
+  },
+  {
+    "name": "v8",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 45113,
+        "gzipSize": 13253
+      },
+      {
+        "bundler": "webpack",
+        "size": 44232,
+        "gzipSize": 13222
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "uploadBytes",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 28330,
+        "gzipSize": 9425
+      },
+      {
+        "bundler": "webpack",
+        "size": 27607,
+        "gzipSize": 9404
+      }
+    ]
+  },
+  {
+    "name": "uploadString",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 28539,
+        "gzipSize": 9479
+      },
+      {
+        "bundler": "webpack",
+        "size": 27793,
+        "gzipSize": 9459
+      }
+    ]
+  },
+  {
+    "name": "uploadBytesResumable",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 37444,
+        "gzipSize": 11565
+      },
+      {
+        "bundler": "webpack",
+        "size": 35833,
+        "gzipSize": 11439
+      }
+    ]
+  },
+  {
+    "name": "getDownloadURL",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 24066,
+        "gzipSize": 7984
+      },
+      {
+        "bundler": "webpack",
+        "size": 23781,
+        "gzipSize": 8088
+      }
+    ]
+  },
+  {
+    "name": "listAndListAll",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 22951,
+        "gzipSize": 7684
+      },
+      {
+        "bundler": "webpack",
+        "size": 22841,
+        "gzipSize": 7803
+      }
+    ]
+  },
+  {
+    "name": "getMetadata",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 23544,
+        "gzipSize": 7826
+      },
+      {
+        "bundler": "webpack",
+        "size": 23367,
+        "gzipSize": 7945
+      }
+    ]
+  },
+  {
+    "name": "updateMetadata",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 23801,
+        "gzipSize": 7935
+      },
+      {
+        "bundler": "webpack",
+        "size": 23600,
+        "gzipSize": 8049
+      }
+    ]
+  },
+  {
+    "name": "v8",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 51194,
+        "gzipSize": 15458
+      },
+      {
+        "bundler": "webpack",
+        "size": 48029,
+        "gzipSize": 14938
+      }
+    ]
+  }
+]

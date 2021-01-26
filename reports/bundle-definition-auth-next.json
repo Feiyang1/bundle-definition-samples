@@ -1,36 +1,21 @@
 [
   {
-    "name": "EmailAndPassword_initializeAuth",
-    "results": [
-      {
-        "bundler": "rollup",
-        "size": 55967,
-        "gzipSize": 16653
-      },
-      {
-        "bundler": "webpack",
-        "size": 70071,
-        "gzipSize": 20161
-      }
-    ]
-  },
-  {
     "name": "EmailAndPassword",
     "results": [
       {
         "bundler": "rollup",
-        "size": 74466,
-        "gzipSize": 21811
+        "size": 56048,
+        "gzipSize": 16668
       },
       {
         "bundler": "webpack",
-        "size": 79169,
-        "gzipSize": 23044
+        "size": 70179,
+        "gzipSize": 20195
       }
     ]
   },
   {
-    "name": "GooglePopup_initializeAuth",
+    "name": "GooglePopup",
     "results": [
       {
         "bundler": "rollup",
@@ -45,37 +30,22 @@
     ]
   },
   {
-    "name": "GooglePopup",
-    "results": [
-      {
-        "bundler": "rollup",
-        "size": 73229,
-        "gzipSize": 21569
-      },
-      {
-        "bundler": "webpack",
-        "size": 78954,
-        "gzipSize": 23022
-      }
-    ]
-  },
-  {
     "name": "GoogleFBTwitterGitHubPopup",
     "results": [
       {
         "bundler": "rollup",
-        "size": 75146,
-        "gzipSize": 21856
+        "size": 75181,
+        "gzipSize": 21865
       },
       {
         "bundler": "webpack",
-        "size": 79113,
-        "gzipSize": 23051
+        "size": 79175,
+        "gzipSize": 23062
       }
     ]
   },
   {
-    "name": "GoogleRedirect_initializeAuth",
+    "name": "GoogleRedirect",
     "results": [
       {
         "bundler": "rollup",
@@ -90,22 +60,7 @@
     ]
   },
   {
-    "name": "GoogleRedirect",
-    "results": [
-      {
-        "bundler": "rollup",
-        "size": 71982,
-        "gzipSize": 21264
-      },
-      {
-        "bundler": "webpack",
-        "size": 79063,
-        "gzipSize": 23047
-      }
-    ]
-  },
-  {
-    "name": "Phone_initializeAuth",
+    "name": "Phone",
     "results": [
       {
         "bundler": "rollup",
@@ -120,22 +75,7 @@
     ]
   },
   {
-    "name": "Phone",
-    "results": [
-      {
-        "bundler": "rollup",
-        "size": 79867,
-        "gzipSize": 23380
-      },
-      {
-        "bundler": "webpack",
-        "size": 84456,
-        "gzipSize": 24520
-      }
-    ]
-  },
-  {
-    "name": "Anonymous_initializeAuth",
+    "name": "Anonymous",
     "results": [
       {
         "bundler": "rollup",
@@ -150,17 +90,17 @@
     ]
   },
   {
-    "name": "Anonymous",
+    "name": "v8",
     "results": [
       {
         "bundler": "rollup",
-        "size": 71402,
-        "gzipSize": 21104
+        "size": 195372,
+        "gzipSize": 61158
       },
       {
         "bundler": "webpack",
-        "size": 79027,
-        "gzipSize": 23014
+        "size": 196217,
+        "gzipSize": 61367
       }
     ]
   }
