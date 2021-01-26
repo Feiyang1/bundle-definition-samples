@@ -1,6 +1,7 @@
 [
   {
     "name": "EmailAndPassword",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -12,10 +13,30 @@
         "size": 70179,
         "gzipSize": 20195
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeAuth",
+          "indexedDBLocalPersistence",
+          "signInWithEmailAndPassword",
+          "onAuthStateChanged"
+        ]
+      }
     ]
   },
   {
     "name": "GooglePopup",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -27,10 +48,32 @@
         "size": 78995,
         "gzipSize": 23012
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeAuth",
+          "indexedDBLocalPersistence",
+          "GoogleAuthProvider",
+          "signInWithPopup",
+          "browserPopupRedirectResolver",
+          "onAuthStateChanged"
+        ]
+      }
     ]
   },
   {
     "name": "GoogleFBTwitterGitHubPopup",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -42,10 +85,34 @@
         "size": 79175,
         "gzipSize": 23062
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "exp",
+        "imports": [
+          "getAuth",
+          "GoogleAuthProvider",
+          "FacebookAuthProvider",
+          "TwitterAuthProvider",
+          "GithubAuthProvider",
+          "signInWithPopup",
+          "browserPopupRedirectResolver",
+          "onAuthStateChanged"
+        ]
+      }
     ]
   },
   {
     "name": "GoogleRedirect",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -57,10 +124,33 @@
         "size": 79104,
         "gzipSize": 23040
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeAuth",
+          "indexedDBLocalPersistence",
+          "GoogleAuthProvider",
+          "getRedirectResult",
+          "browserPopupRedirectResolver",
+          "signInWithRedirect",
+          "onAuthStateChanged"
+        ]
+      }
     ]
   },
   {
     "name": "Phone",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -72,10 +162,30 @@
         "size": 76086,
         "gzipSize": 21902
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeAuth",
+          "indexedDBLocalPersistence",
+          "RecaptchaVerifier",
+          "signInWithPhoneNumber"
+        ]
+      }
     ]
   },
   {
     "name": "Anonymous",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -87,10 +197,29 @@
         "size": 70348,
         "gzipSize": 20205
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeAuth",
+          "indexedDBLocalPersistence",
+          "signInAnonymously"
+        ]
+      }
     ]
   },
   {
     "name": "v8",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -101,6 +230,22 @@
         "bundler": "webpack",
         "size": 196217,
         "gzipSize": 61367
+      }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "latest",
+        "imports": [
+          "default import"
+        ]
+      },
+      {
+        "packageName": "@firebase/auth",
+        "versionOrTag": "latest",
+        "imports": [
+          "side effect import"
+        ]
       }
     ]
   }

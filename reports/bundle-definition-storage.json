@@ -1,6 +1,7 @@
 [
   {
     "name": "uploadBytes",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -12,10 +13,29 @@
         "size": 27607,
         "gzipSize": 9404
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "uploadBytes"
+        ]
+      }
     ]
   },
   {
     "name": "uploadString",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -27,10 +47,29 @@
         "size": 27793,
         "gzipSize": 9459
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "uploadString"
+        ]
+      }
     ]
   },
   {
     "name": "uploadBytesResumable",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -42,10 +81,29 @@
         "size": 35833,
         "gzipSize": 11439
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "uploadBytesResumable"
+        ]
+      }
     ]
   },
   {
     "name": "getDownloadURL",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -57,10 +115,29 @@
         "size": 23781,
         "gzipSize": 8088
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "getDownloadURL"
+        ]
+      }
     ]
   },
   {
     "name": "listAndListAll",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -72,10 +149,30 @@
         "size": 22841,
         "gzipSize": 7803
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "list",
+          "listAll"
+        ]
+      }
     ]
   },
   {
     "name": "getMetadata",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -87,10 +184,29 @@
         "size": 23367,
         "gzipSize": 7945
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "getMetadata"
+        ]
+      }
     ]
   },
   {
     "name": "updateMetadata",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -102,10 +218,29 @@
         "size": 23600,
         "gzipSize": 8049
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "exp",
+        "imports": [
+          "getStorage",
+          "ref",
+          "updateMetadata"
+        ]
+      }
     ]
   },
   {
     "name": "v8",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -116,6 +251,22 @@
         "bundler": "webpack",
         "size": 48029,
         "gzipSize": 14938
+      }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "latest",
+        "imports": [
+          "default import"
+        ]
+      },
+      {
+        "packageName": "@firebase/storage",
+        "versionOrTag": "latest",
+        "imports": [
+          "side effect import"
+        ]
       }
     ]
   }

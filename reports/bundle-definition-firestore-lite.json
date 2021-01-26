@@ -1,6 +1,7 @@
 [
   {
     "name": "Read data once",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -12,10 +13,37 @@
         "size": 49603,
         "gzipSize": 15891
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "exp",
+        "imports": [
+          {
+            "path": "lite",
+            "imports": [
+              "getFirestore",
+              "collection",
+              "getDocs",
+              "doc",
+              "setDoc",
+              "getDoc"
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     "name": "Query",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -27,10 +55,37 @@
         "size": 51548,
         "gzipSize": 16245
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "exp",
+        "imports": [
+          {
+            "path": "lite",
+            "imports": [
+              "getFirestore",
+              "collection",
+              "query",
+              "where",
+              "orderBy",
+              "getDocs"
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     "name": "v8",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -41,6 +96,22 @@
         "bundler": "webpack",
         "size": 258530,
         "gzipSize": 79775
+      }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "latest",
+        "imports": [
+          "default import"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "latest",
+        "imports": [
+          "side effect import"
+        ]
       }
     ]
   }

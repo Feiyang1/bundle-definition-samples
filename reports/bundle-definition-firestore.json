@@ -1,6 +1,7 @@
 [
   {
     "name": "Read data once",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -12,10 +13,32 @@
         "size": 175882,
         "gzipSize": 56910
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "exp",
+        "imports": [
+          "getFirestore",
+          "doc",
+          "getDoc",
+          "setDoc",
+          "collection",
+          "getDocs"
+        ]
+      }
     ]
   },
   {
     "name": "realtime updates",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -27,10 +50,29 @@
         "size": 162014,
         "gzipSize": 53072
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "exp",
+        "imports": [
+          "getFirestore",
+          "doc",
+          "onSnapshot"
+        ]
+      }
     ]
   },
   {
     "name": "Query",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -42,10 +84,33 @@
         "size": 171307,
         "gzipSize": 55732
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "exp",
+        "imports": [
+          "getFirestore",
+          "onSnapshot",
+          "collection",
+          "query",
+          "where",
+          "orderBy",
+          "getDocs"
+        ]
+      }
     ]
   },
   {
     "name": "v8",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -56,6 +121,22 @@
         "bundler": "webpack",
         "size": 258530,
         "gzipSize": 79775
+      }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "latest",
+        "imports": [
+          "default import"
+        ]
+      },
+      {
+        "packageName": "@firebase/firestore",
+        "versionOrTag": "latest",
+        "imports": [
+          "side effect import"
+        ]
       }
     ]
   }

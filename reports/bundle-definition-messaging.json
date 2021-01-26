@@ -1,6 +1,7 @@
 [
   {
     "name": "FCM",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -12,10 +13,29 @@
         "size": 33069,
         "gzipSize": 10041
       }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "exp",
+        "imports": [
+          "initializeApp"
+        ]
+      },
+      {
+        "packageName": "@firebase/messaging",
+        "versionOrTag": "exp",
+        "imports": [
+          "getMessaging",
+          "getToken",
+          "onMessage"
+        ]
+      }
     ]
   },
   {
     "name": "v8",
+    "description": "",
     "results": [
       {
         "bundler": "rollup",
@@ -26,6 +46,22 @@
         "bundler": "webpack",
         "size": 44232,
         "gzipSize": 13222
+      }
+    ],
+    "dependencies": [
+      {
+        "packageName": "@firebase/app",
+        "versionOrTag": "latest",
+        "imports": [
+          "default import"
+        ]
+      },
+      {
+        "packageName": "@firebase/messaging",
+        "versionOrTag": "latest",
+        "imports": [
+          "side effect import"
+        ]
       }
     ]
   }
