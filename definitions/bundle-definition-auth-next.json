@@ -138,5 +138,24 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "v8",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "latest",
+                "imports": [
+                    "default import"
+                ]
+            },
+            {
+                "packageName": "@firebase/auth",
+                "versionOrTag": "latest",
+                "imports": [
+                    "side effect import"
+                ]
+            }
+        ]
     }
 ]
