@@ -1,6 +1,6 @@
 [
     {
-        "name": "EmailAndPassword",
+        "name": "uploadBytes",
         "dependencies": [
             {
                 "packageName": "@firebase/app",
@@ -10,19 +10,18 @@
                 ]
             },
             {
-                "packageName": "@firebase/auth",
+                "packageName": "@firebase/storage",
                 "versionOrTag": "exp",
                 "imports": [
-                    "initializeAuth",
-                    "indexedDBLocalPersistence",
-                    "signInWithEmailAndPassword",
-                    "onAuthStateChanged"
+                    "getStorage",
+                    "ref",
+                    "uploadBytes"
                 ]
             }
         ]
     },
     {
-        "name": "GooglePopup",
+        "name": "uploadString",
         "dependencies": [
             {
                 "packageName": "@firebase/app",
@@ -32,21 +31,18 @@
                 ]
             },
             {
-                "packageName": "@firebase/auth",
+                "packageName": "@firebase/storage",
                 "versionOrTag": "exp",
                 "imports": [
-                    "initializeAuth",
-                    "indexedDBLocalPersistence",
-                    "GoogleAuthProvider",
-                    "signInWithPopup",
-                    "browserPopupRedirectResolver",
-                    "onAuthStateChanged"
+                    "getStorage",
+                    "ref",
+                    "uploadString"
                 ]
             }
         ]
     },
     {
-        "name": "GoogleFBTwitterGitHubPopup",
+        "name": "uploadBytesResumable",
         "dependencies": [
             {
                 "packageName": "@firebase/app",
@@ -56,23 +52,18 @@
                 ]
             },
             {
-                "packageName": "@firebase/auth",
+                "packageName": "@firebase/storage",
                 "versionOrTag": "exp",
                 "imports": [
-                    "getAuth",
-                    "GoogleAuthProvider",
-                    "FacebookAuthProvider",
-                    "TwitterAuthProvider",
-                    "GithubAuthProvider",
-                    "signInWithPopup",
-                    "browserPopupRedirectResolver",
-                    "onAuthStateChanged"
+                    "getStorage",
+                    "ref",
+                    "uploadBytesResumable"
                 ]
             }
         ]
     },
     {
-        "name": "GoogleRedirect",
+        "name": "getDownloadURL",
         "dependencies": [
             {
                 "packageName": "@firebase/app",
@@ -82,22 +73,18 @@
                 ]
             },
             {
-                "packageName": "@firebase/auth",
+                "packageName": "@firebase/storage",
                 "versionOrTag": "exp",
                 "imports": [
-                    "initializeAuth",
-                    "indexedDBLocalPersistence",
-                    "GoogleAuthProvider",
-                    "getRedirectResult",
-                    "browserPopupRedirectResolver",
-                    "signInWithRedirect",
-                    "onAuthStateChanged"
+                    "getStorage",
+                    "ref",
+                    "getDownloadURL"
                 ]
             }
         ]
     },
     {
-        "name": "Phone",
+        "name": "listAndListAll",
         "dependencies": [
             {
                 "packageName": "@firebase/app",
@@ -107,19 +94,19 @@
                 ]
             },
             {
-                "packageName": "@firebase/auth",
+                "packageName": "@firebase/storage",
                 "versionOrTag": "exp",
                 "imports": [
-                    "initializeAuth",
-                    "indexedDBLocalPersistence",
-                    "RecaptchaVerifier",
-                    "signInWithPhoneNumber"
+                    "getStorage",
+                    "ref",
+                    "list",
+                    "listAll"
                 ]
             }
         ]
     },
     {
-        "name": "Anonymous",
+        "name": "getMetadata",
         "dependencies": [
             {
                 "packageName": "@firebase/app",
@@ -129,12 +116,33 @@
                 ]
             },
             {
-                "packageName": "@firebase/auth",
+                "packageName": "@firebase/storage",
                 "versionOrTag": "exp",
                 "imports": [
-                    "initializeAuth",
-                    "indexedDBLocalPersistence",
-                    "signInAnonymously"
+                    "getStorage",
+                    "ref",
+                    "getMetadata"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "updateMetadata",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/storage",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getStorage",
+                    "ref",
+                    "updateMetadata"
                 ]
             }
         ]

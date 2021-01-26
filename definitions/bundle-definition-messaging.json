@@ -1,0 +1,23 @@
+[
+    {
+        "name": "FCM",
+        "dependencies": [
+            {
+                "packageName": "@firebase/app",
+                "versionOrTag": "exp",
+                "imports": [
+                    "initializeApp"
+                ]
+            },
+            {
+                "packageName": "@firebase/messaging",
+                "versionOrTag": "exp",
+                "imports": [
+                    "getMessaging",
+                    "getToken",
+                    "onMessage"
+                ]
+            }
+        ]
+    }
+]
