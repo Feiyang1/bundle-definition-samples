@@ -1,0 +1,167 @@
+[
+  {
+    "name": "EmailAndPassword_initializeAuth",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 55967,
+        "gzipSize": 16653
+      },
+      {
+        "bundler": "webpack",
+        "size": 70071,
+        "gzipSize": 20161
+      }
+    ]
+  },
+  {
+    "name": "EmailAndPassword",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 74466,
+        "gzipSize": 21811
+      },
+      {
+        "bundler": "webpack",
+        "size": 79169,
+        "gzipSize": 23044
+      }
+    ]
+  },
+  {
+    "name": "GooglePopup_initializeAuth",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 70724,
+        "gzipSize": 21007
+      },
+      {
+        "bundler": "webpack",
+        "size": 78995,
+        "gzipSize": 23012
+      }
+    ]
+  },
+  {
+    "name": "GooglePopup",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 73229,
+        "gzipSize": 21569
+      },
+      {
+        "bundler": "webpack",
+        "size": 78954,
+        "gzipSize": 23022
+      }
+    ]
+  },
+  {
+    "name": "GoogleFBTwitterGitHubPopup",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 75146,
+        "gzipSize": 21856
+      },
+      {
+        "bundler": "webpack",
+        "size": 79113,
+        "gzipSize": 23051
+      }
+    ]
+  },
+  {
+    "name": "GoogleRedirect_initializeAuth",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 69477,
+        "gzipSize": 20710
+      },
+      {
+        "bundler": "webpack",
+        "size": 79104,
+        "gzipSize": 23040
+      }
+    ]
+  },
+  {
+    "name": "GoogleRedirect",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 71982,
+        "gzipSize": 21264
+      },
+      {
+        "bundler": "webpack",
+        "size": 79063,
+        "gzipSize": 23047
+      }
+    ]
+  },
+  {
+    "name": "Phone_initializeAuth",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 62146,
+        "gzipSize": 18425
+      },
+      {
+        "bundler": "webpack",
+        "size": 76086,
+        "gzipSize": 21902
+      }
+    ]
+  },
+  {
+    "name": "Phone",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 79867,
+        "gzipSize": 23380
+      },
+      {
+        "bundler": "webpack",
+        "size": 84456,
+        "gzipSize": 24520
+      }
+    ]
+  },
+  {
+    "name": "Anonymous_initializeAuth",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 52243,
+        "gzipSize": 15694
+      },
+      {
+        "bundler": "webpack",
+        "size": 70348,
+        "gzipSize": 20205
+      }
+    ]
+  },
+  {
+    "name": "Anonymous",
+    "results": [
+      {
+        "bundler": "rollup",
+        "size": 71402,
+        "gzipSize": 21104
+      },
+      {
+        "bundler": "webpack",
+        "size": 79027,
+        "gzipSize": 23014
+      }
+    ]
+  }
+]
