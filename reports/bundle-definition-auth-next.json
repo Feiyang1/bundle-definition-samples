@@ -5,13 +5,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 56048,
-        "gzipSize": 16668
+        "size": 56049,
+        "gzipSize": 16669
       },
       {
         "bundler": "webpack",
-        "size": 70179,
-        "gzipSize": 20195
+        "size": 70181,
+        "gzipSize": 20198
       }
     ],
     "dependencies": [
@@ -40,13 +40,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 70724,
+        "size": 70725,
         "gzipSize": 21007
       },
       {
         "bundler": "webpack",
-        "size": 78995,
-        "gzipSize": 23012
+        "size": 78999,
+        "gzipSize": 23015
       }
     ],
     "dependencies": [
@@ -77,13 +77,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 75181,
-        "gzipSize": 21865
+        "size": 75182,
+        "gzipSize": 21866
       },
       {
         "bundler": "webpack",
-        "size": 79175,
-        "gzipSize": 23062
+        "size": 79179,
+        "gzipSize": 23064
       }
     ],
     "dependencies": [
@@ -116,13 +116,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 69477,
-        "gzipSize": 20710
+        "size": 69478,
+        "gzipSize": 20711
       },
       {
         "bundler": "webpack",
-        "size": 79104,
-        "gzipSize": 23040
+        "size": 79108,
+        "gzipSize": 23042
       }
     ],
     "dependencies": [
@@ -154,13 +154,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 62146,
-        "gzipSize": 18425
+        "size": 62147,
+        "gzipSize": 18426
       },
       {
         "bundler": "webpack",
-        "size": 76086,
-        "gzipSize": 21902
+        "size": 76088,
+        "gzipSize": 21905
       }
     ],
     "dependencies": [
@@ -189,13 +189,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 52243,
+        "size": 52244,
         "gzipSize": 15694
       },
       {
         "bundler": "webpack",
-        "size": 70348,
-        "gzipSize": 20205
+        "size": 70350,
+        "gzipSize": 20209
       }
     ],
     "dependencies": [
