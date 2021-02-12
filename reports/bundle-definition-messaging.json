@@ -5,13 +5,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 33428,
-        "gzipSize": 9961
+        "size": 33646,
+        "gzipSize": 9985
       },
       {
         "bundler": "webpack",
-        "size": 33069,
-        "gzipSize": 10041
+        "size": 33237,
+        "gzipSize": 10061
       }
     ],
     "dependencies": [
