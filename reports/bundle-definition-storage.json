@@ -182,7 +182,7 @@
       {
         "bundler": "webpack",
         "size": 23725,
-        "gzipSize": 8007
+        "gzipSize": 8008
       }
     ],
     "dependencies": [
