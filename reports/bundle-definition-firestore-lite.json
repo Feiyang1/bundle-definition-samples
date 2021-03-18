@@ -5,13 +5,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 49060,
-        "gzipSize": 15644
+        "size": 52414,
+        "gzipSize": 16099
       },
       {
         "bundler": "webpack",
-        "size": 50053,
-        "gzipSize": 15976
+        "size": 53407,
+        "gzipSize": 16403
       }
     ],
     "dependencies": [
@@ -47,13 +47,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 51015,
-        "gzipSize": 16000
+        "size": 54171,
+        "gzipSize": 16415
       },
       {
         "bundler": "webpack",
-        "size": 51997,
-        "gzipSize": 16325
+        "size": 55153,
+        "gzipSize": 16756
       }
     ],
     "dependencies": [
@@ -89,13 +89,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 256959,
-        "gzipSize": 79074
+        "size": 280764,
+        "gzipSize": 82099
       },
       {
         "bundler": "webpack",
-        "size": 258997,
-        "gzipSize": 79888
+        "size": 282770,
+        "gzipSize": 83113
       }
     ],
     "dependencies": [
