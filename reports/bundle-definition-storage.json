@@ -5,13 +5,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 28816,
-        "gzipSize": 9517
+        "size": 29322,
+        "gzipSize": 9607
       },
       {
         "bundler": "webpack",
-        "size": 28044,
-        "gzipSize": 9489
+        "size": 28485,
+        "gzipSize": 9591
       }
     ],
     "dependencies": [
@@ -39,13 +39,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 29025,
-        "gzipSize": 9573
+        "size": 29531,
+        "gzipSize": 9663
       },
       {
         "bundler": "webpack",
-        "size": 28230,
-        "gzipSize": 9540
+        "size": 28671,
+        "gzipSize": 9647
       }
     ],
     "dependencies": [
@@ -73,13 +73,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 37930,
-        "gzipSize": 11660
+        "size": 38436,
+        "gzipSize": 11752
       },
       {
         "bundler": "webpack",
-        "size": 36270,
-        "gzipSize": 11526
+        "size": 36711,
+        "gzipSize": 11623
       }
     ],
     "dependencies": [
@@ -107,13 +107,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 24552,
-        "gzipSize": 8076
+        "size": 25058,
+        "gzipSize": 8161
       },
       {
         "bundler": "webpack",
-        "size": 24218,
-        "gzipSize": 8172
+        "size": 24658,
+        "gzipSize": 8271
       }
     ],
     "dependencies": [
@@ -141,13 +141,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 23437,
-        "gzipSize": 7777
+        "size": 23943,
+        "gzipSize": 7861
       },
       {
         "bundler": "webpack",
-        "size": 23278,
-        "gzipSize": 7893
+        "size": 23719,
+        "gzipSize": 7989
       }
     ],
     "dependencies": [
@@ -176,13 +176,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 24030,
-        "gzipSize": 7921
+        "size": 24536,
+        "gzipSize": 8003
       },
       {
         "bundler": "webpack",
-        "size": 23804,
-        "gzipSize": 8031
+        "size": 24244,
+        "gzipSize": 8128
       }
     ],
     "dependencies": [
@@ -210,13 +210,13 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 24287,
-        "gzipSize": 8028
+        "size": 24793,
+        "gzipSize": 8112
       },
       {
         "bundler": "webpack",
-        "size": 24037,
-        "gzipSize": 8135
+        "size": 24477,
+        "gzipSize": 8231
       }
     ],
     "dependencies": [
