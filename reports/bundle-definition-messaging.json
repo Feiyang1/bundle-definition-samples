@@ -6,12 +6,12 @@
       {
         "bundler": "rollup",
         "size": 35686,
-        "gzipSize": 10556
+        "gzipSize": 10545
       },
       {
         "bundler": "webpack",
         "size": 35246,
-        "gzipSize": 10636
+        "gzipSize": 10625
       }
     ],
     "dependencies": [
