@@ -40,7 +40,7 @@
       {
         "bundler": "rollup",
         "size": 46978,
-        "gzipSize": 13660
+        "gzipSize": 13659
       },
       {
         "bundler": "webpack",

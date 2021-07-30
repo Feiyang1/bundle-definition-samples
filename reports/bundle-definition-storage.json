@@ -244,12 +244,12 @@
     "results": [
       {
         "bundler": "rollup",
-        "size": 53476,
-        "gzipSize": 15876
+        "size": 53472,
+        "gzipSize": 15875
       },
       {
         "bundler": "webpack",
-        "size": 51234,
+        "size": 51224,
         "gzipSize": 15685
       }
     ],
